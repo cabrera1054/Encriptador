@@ -1,0 +1,84 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+html, body {
+  background: #04325e;
+}
+
+html {
+  font-size: 0.625em;
+}
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 4.8rem;
+  text-align: center;
+  width: 80rem;
+  max-width: 100%;
+}
+.soc li {
+  display: inline-block;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  height: 9.6rem;
+  width: 9.6rem;
+}
+
+.icon-17:hover, .icon-13:hover, .icon-10:hover,  .icon-8:hover{
+  border-radius: 100%;
+  fill: #0e1a25;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+.icon-8 {
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+.icon-10 {
+  fill: #26d926;
+}
+.icon-10:hover {
+  background: #26d926;
+}
+
+.icon-13 {
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-17 {
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
